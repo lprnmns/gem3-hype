@@ -1,0 +1,13 @@
+[package]
+name = "gemini3-hype"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+dotenvy = "0.15.7"
+env_logger = "0.11.8"
+hyperliquid_rust_sdk = "0.6.0"
+log = "0.4.28"
+rust_decimal = "1.39.0"
+tokio = { version = "1.48.0", features = ["full"] }
