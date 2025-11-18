@@ -3,10 +3,8 @@ mod config;
 use anyhow::Result;
 use config::Config;
 use hyperliquid_rust_sdk::{BaseUrl, ExchangeClient};
-use hyperliquid_rust_sdk::types::{
-    exchange::request::{Limit, OrderRequest, Tif},
-    H160,
-};
+use hyperliquid_rust_sdk::types::exchange::request::{Limit, OrderRequest, Tif};
+use hyperliquid_rust_sdk::types::H160;
 use log::{info, error};
 use std::time::Duration;
 use tokio::time::sleep;
