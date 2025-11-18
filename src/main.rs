@@ -1,7 +1,7 @@
-mod config;
+
 
 use anyhow::Result;
-use config::Config;
+use gemini3_hype::Config;
 use hyperliquid_rust_sdk::{BaseUrl, InfoClient};
 use log::{info, error};
 use std::str::FromStr;

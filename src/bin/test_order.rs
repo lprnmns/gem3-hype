@@ -1,7 +1,7 @@
-mod config;
+
 
 use anyhow::Result;
-use config::Config;
+use gemini3_hype::Config;
 use hyperliquid_rust_sdk::{BaseUrl, ExchangeClient};
 use hyperliquid_rust_sdk::types::exchange::request::{Limit, OrderRequest, Tif};
 use hyperliquid_rust_sdk::types::H160;
