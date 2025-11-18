@@ -8,7 +8,6 @@ use hyperliquid_rust_sdk::types::{
     H160,
 };
 use log::{info, error};
-use std::str::FromStr;
 use std::time::Duration;
 use tokio::time::sleep;
 
